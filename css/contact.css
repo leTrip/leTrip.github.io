@@ -1,0 +1,109 @@
+.banner{
+    background-image: url(../image/about.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 60%;
+}
+
+.banner-title{
+    font-size: 4em;
+    color: #fff;
+    background: linear-gradient(0deg, rgb(0, 0, 0) -15%, rgba(255, 255, 255,0) 20%, rgba(0, 0, 0,0.2) 50%, rgba(255, 255, 243,0) 85%, rgb(0, 0, 0) 115%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 6em;
+}
+
+.contact{
+     width: 100%;
+     background: #f7f7f7;
+}
+
+.container{
+     width: 100%;
+     background: #fff;
+}
+
+
+.border{
+    border-top: 30px solid #ffffff;
+    border-left: 30px solid #ffffff;
+}
+
+.border-right{
+    border-top: 30px solid #ffffff;
+    border-right: 30px solid #ffffff;
+}
+
+.contact-container{
+    margin: auto;
+    width: 90%;
+    background: #fff;
+    position: relative;
+}
+
+.contact-container iframe{
+    margin: auto;
+    width: 600px;
+    overflow: hidden;
+    border: none;
+}
+
+
+.width50{
+    width: 50%;
+}
+
+.contact-address{
+    background: #f7f7f7;
+}
+
+.blank{
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.email{
+    height: 450px;
+}
+
+.contact-map img{
+   width: 100%;
+}
+
+.contact-title{
+    color: #333;
+    font-size: 1.8em;
+    font-weight: 900;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.contact-content{
+    color: #666;
+    padding-left: 50px;
+}
+
+
+.contact-service{
+background: #fff;
+    width: calc(90% - 60px);
+    margin: auto;
+    border-bottom: dashed 1px #dddddd;
+    padding-bottom: 75px;
+    border-left: 30px solid #fff;
+    border-right: 30px solid #fff;
+}
+
+
+.contact-second-title{
+   font-size: 20px;
+    height: 20px;
+    padding-left: 30px;
+    font-weight: bold;
+    margin: 26px 0 12px 0;
+    line-height: 20px;
+}

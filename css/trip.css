@@ -1,0 +1,21 @@
+.banner{
+    background-position: center center;
+    background-size: cover;
+    height: 60%;
+}
+
+
+
+.banner-title{
+    font-size: 4em;
+    color: #fff;
+    background: linear-gradient(0deg, rgb(0, 0, 0) -15%, rgba(255, 255, 255,0) 20%, rgba(0, 0, 0,0) 50%, rgba(255, 255, 243,0) 85%, rgb(0, 0, 0) 115%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 6em;
+}
+
+.route-tip{
+    color: #5a5a5a;
+}
