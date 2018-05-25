@@ -6,13 +6,25 @@ document.addEventListener("scroll", throttle(function() {
       header.classList.remove('text-shadow');
       nav.classList.remove('nav-hover-bg')
       nav.classList.add('nav-hover-underline')
+      menu.classList.add('fill-black')
   } else {
       header.classList.remove('float');
       header.classList.add('text-shadow');
       nav.classList.add('nav-hover-bg')
       nav.classList.remove('nav-hover-underline')
+      menu.classList.remove('fill-black')
   }
 },300),{passive: true});
+
+
+mobileNav.addEventListener('click', function() {
+    if (getComputedStyle(list).opacity === '0') {
+        list.classList.add('list-open')
+    } else {
+        list.classList.remove('list-open')
+    }
+})
+
 
 
 //节流函数

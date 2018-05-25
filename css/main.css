@@ -46,7 +46,9 @@ body {
   text-decoration: none;
 }
 
-
+#mobileNav{
+    display: none;
+}
 
 .nav-hover-bg a:hover{
   background: #fff8f86b;
@@ -422,8 +424,8 @@ a.gallery-box{
 
 
 .video-style {
-    width: 100%;
-    transform: translate(0%, -25%);
+width: 110%;
+    transform: translate(-5%, 0%);
 }
 
 .video-mask {
@@ -502,6 +504,141 @@ a.gallery-box{
     font-size: 1.8em;
 }
 
-
-
 /*//////////////////////////////////////////////////////////////////*/
+
+
+    .list {
+        position: fixed;
+        top: -100%;
+        height: 50%;
+        width: 100%;
+        background: #fff;
+        color: #000;
+        overflow: hidden;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+
+    .list a {
+        text-decoration: none;
+        color: #737373;
+        display: block;
+
+        padding: 5vh;
+    }
+
+    .list a:hover {
+        background: #f1f1f1;
+    }
+
+
+    .list-open {
+        top: 60px;
+        opacity: 1;
+    }
+
+    .fill-black{
+        fill: #1f1f1f;
+    }
+
+    .icon-width {
+        width: 32px;
+        height: 32px;
+    }
+
+    .icon {
+        fill:#fff;
+        cursor: pointer;
+        opacity: 1;
+        transition: opacity 0.3s;
+    }
+
+    .icon:hover {
+        opacity: 0.8;
+    }
+
+@media screen and (max-width: 500px){
+
+    #nav{display: none}
+    #mobileNav{display: block;}
+    .slide-tip{
+        width: 90vw;
+    }
+
+    .slide-title{
+        font-size: 2em;
+    }
+
+    .button{
+      padding: 5px;
+      font-size: 1em;
+    }
+    .slide-line{
+        display: none;
+    }
+
+.gallery, .about{
+    height:auto;
+}
+
+    .gallery-box{
+    width: 100%;
+    }
+
+
+    .left-top, .right-bottom{display: none}
+
+
+    .about-container{
+        width: 100%;
+    }
+
+    .video-title{
+        width: 85%;
+    font-size: 1.2rem;
+    }
+   .video-style{
+        height: 100%;
+    width: auto;
+    transform: translate(-40%, 0);
+   }
+
+    .service{
+        width: 95vw;
+    }
+    .service-box{
+        position: relative;
+    padding: 20px;
+    }
+
+    .service-box-title{
+        font-size: 1em;
+    }
+
+    .service-mask{
+    background: #ffffffe3;
+    font-size: 0.9em;
+    z-index: 999;
+    height: auto;
+    }
+
+    .comment-detail {
+    padding: 5%;
+    }
+
+   .comment-content:nth-child(2),.comment-content:nth-child(3){
+        display: none
+    }
+
+    .subscribe{
+            padding: 20px;
+    }    
+    
+    .subscribe input {
+        width: auto;
+    }
+
+    .footer{
+        line-height: 15px;
+    }
+}
