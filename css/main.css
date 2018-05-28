@@ -27,7 +27,7 @@ body {
 
 .float {
     height: 10vh;
-    background: #ffffffc2;
+    background: rgba(255, 255, 255, 0.76);
     color: #2d2d2d;
 }
 
@@ -285,7 +285,7 @@ a.gallery-box{
     top: 0;
     left: 0;
     height: 100%;
-    background: #e6e6e6bd;
+    background: rgba(230, 230, 230, 0.75);;
     color: #040404;
     padding: 20px;
     text-align: justify;
@@ -293,9 +293,14 @@ a.gallery-box{
     transition: all 0.3s ease;
     border-radius: 5px;
     line-height: 2em;
+    user-select: none;
 }
 
 .service-mask:hover {
+    opacity: 1;
+}
+
+.service-mask:active {
     opacity: 1;
 }
 
@@ -510,21 +515,23 @@ width: 110%;
     .list {
         position: fixed;
         top: -100%;
-        height: 50%;
         width: 100%;
-        background: #fff;
+        background: rgba(255, 255, 255, 0.76);
         color: #000;
         overflow: hidden;
         opacity: 0;
         transition: all 0.5s;
+        text-shadow: none;
+        visibility: hidden;
+        z-index: 999;
+        user-select: none;
     }
 
     .list a {
         text-decoration: none;
         color: #737373;
         display: block;
-
-        padding: 5vh;
+        text-align: center;
     }
 
     .list a:hover {
@@ -566,7 +573,7 @@ width: 110%;
     }
 
     .slide-title{
-        font-size: 2em;
+        font-size: 1.7em;
     }
 
     .button{
@@ -639,6 +646,7 @@ width: 110%;
     }
 
     .footer{
-        line-height: 15px;
+      line-height: 0.5em;
+    font-size: 0.8em;
     }
 }

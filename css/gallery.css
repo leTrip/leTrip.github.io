@@ -62,3 +62,17 @@
 .trip-route{
     font-size: 0.6em
 }
+
+
+
+
+@media screen and (max-width: 500px){
+.banner{
+    height: 40%;
+}
+.banner-title {
+    font-size: 3em;
+    line-height: 6em;
+}
+
+}

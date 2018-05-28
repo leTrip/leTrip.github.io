@@ -19,3 +19,16 @@
 .route-tip{
     color: #5a5a5a;
 }
+
+
+
+@media screen and (max-width: 500px){
+.banner{
+    height: 40%;
+}
+.banner-title {
+    font-size: 3em;
+    line-height: 6em;
+}
+
+}

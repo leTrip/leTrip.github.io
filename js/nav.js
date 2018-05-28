@@ -7,25 +7,29 @@ document.addEventListener("scroll", throttle(function() {
       nav.classList.remove('nav-hover-bg')
       nav.classList.add('nav-hover-underline')
       menu.classList.add('fill-black')
+      list.style.top = '60px'
   } else {
       header.classList.remove('float');
       header.classList.add('text-shadow');
       nav.classList.add('nav-hover-bg')
       nav.classList.remove('nav-hover-underline')
       menu.classList.remove('fill-black')
+      list.style.top = '80px'
   }
 },300),{passive: true});
 
+document.body.addEventListener('touchstart',function(){},false);
 
 mobileNav.addEventListener('click', function() {
-    if (getComputedStyle(list).opacity === '0') {
+    if (getComputedStyle(list).visibility !== 'visible') {
+        list.style.visibility = 'visible';
         list.classList.add('list-open')
     } else {
+
         list.classList.remove('list-open')
+        list.style.visibility = 'hidden';
     }
 })
-
-
 
 //节流函数
 function throttle(func, wait) {
