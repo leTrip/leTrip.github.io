@@ -1,7 +1,7 @@
 'use strict';
 
 document.addEventListener("scroll", throttle(function() {
-  if (window.pageYOffset > 600) {
+  if (window.pageYOffset > 300) {
       header.classList.add('float');
       header.classList.remove('text-shadow');
       nav.classList.remove('nav-hover-bg')
