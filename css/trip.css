@@ -20,15 +20,52 @@
     color: #5a5a5a;
 }
 
-
-
-@media screen and (max-width: 500px){
-.banner{
-    height: 40%;
+.paragraph{
+color: #666;
+    font: 1.2em "Microsoft Yahei";
+    line-height: 1.8em;
+    text-align: justify;
+    text-indent: 2em;
 }
-.banner-title {
-    font-size: 3em;
-    line-height: 6em;
+
+.timeline{
+        font-weight: 900;
+    color: #000;
+    font-family: sans-serif;
+}
+
+
+h1{
+    text-indent: 1em;
+    color: #333;
+}
+h3{
+    text-indent: 2em;
+    color: #333;
+}
+.fullscreen{
+    transform: translateX(-15%);
+    width: calc(10000% / 70);
+}
+
+.relative{
+    position: relative;
+}
+@media screen and (max-width: 500px){
+    .banner{
+        height: 40%;
+    }
+    .banner-title {
+        font-size: 3em;
+        line-height: 6em;
+    }
+
+    .width-45{
+        width: 100% !important;
+    } 
+
+    .landing-photo{
+    display: none !important;
 }
 
 }
