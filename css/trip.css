@@ -64,8 +64,21 @@ h3{
         width: 100% !important;
     } 
 
+    .width-70{
+        width: 95% !important;
+    }
+
+    .padding-5-percent {
+    padding: 0  !important;
+}
+
     .landing-photo{
     display: none !important;
+}
+
+.fullscreen {
+    transform: translateX(-2.5%);
+    width: calc(10000% / 95);
 }
 
 }
