@@ -146,12 +146,11 @@ border-bottom: 3px solid #3e3e3e;
 .gallery {
     width: 90vw;
     margin: auto;
-    height: 100%;
 }
 
 .gallery-box {
     width: 30%;
-    height: 40%;
+    height: 200px;
     display: inline-block;
     margin: calc(10% / 7);
     position: relative;
