@@ -1,3 +1,7 @@
+body{
+overflow-x:hidden;
+}
+
 .banner{
     background-position: center center;
     background-size: cover;
